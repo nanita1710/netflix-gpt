@@ -1,7 +1,8 @@
 # Netflix GPT
 - Create React app
 - Configured tailwindcss
-
+- Build header
+- cReate form
 
 
 
