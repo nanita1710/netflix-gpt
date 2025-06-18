@@ -32,7 +32,6 @@ export const supportedLanguages = [
   },
 ]
 
-export const OPENAI_KEY =
-  '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'
+export const OPENAI_KEY = process.env.REACT_APP_OPENAI_KEY
 
 export const GENAI_KEY = process.env.REACT_APP_GENAI_KEY
