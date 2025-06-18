@@ -26,6 +26,18 @@
 - Update the store with trailer video data
 - Embed the youtube video and make it autoplay and mute
 - Tailwind classes to make make main page look awesome
+- GPT search page
+- Gpt search bar
+- (BONUS) - Multi language support in our app
+- get gemini ai api key
+- gpt movie search api
+- fetched movie suggestions form tmdb
+- created gptslice movie data
+- reused movieList component in gpt search page
+- memoization
+- added .env file
+- added .env file to gitignore
+- made our app responsive
 
 # Features
 

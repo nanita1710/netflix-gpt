@@ -11,9 +11,28 @@ export const API_OPTIONS = {
   method: 'GET',
   headers: {
     accept: 'application/json',
-    Authorization:
-      'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJkYzlhYTMxYTI0NGVmNzQ4NmE3MjU1N2IzMWQyMGIxZCIsIm5iZiI6MTc0OTk2NjA2Ny40MzM5OTk4LCJzdWIiOiI2ODRlNWNmM2Q3YWU1ZjI5MDcxZWMzOTMiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.w9ucy918bXS4BoIbDVFxX9NYFHOTkfylmfIpWSEB0RU',
+    Authorization: 'Bearer ' + process.env.REACT_APP_TMDB_KEY,
   },
 }
 
 export const IMG_CDN = 'https://image.tmdb.org/t/p/w500/'
+
+export const supportedLanguages = [
+  {
+    identifier: 'en',
+    name: 'English',
+  },
+  {
+    identifier: 'hindi',
+    name: 'Hindi',
+  },
+  {
+    identifier: 'spanish',
+    name: 'Spanish',
+  },
+]
+
+export const OPENAI_KEY =
+  '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'
+
+export const GENAI_KEY = process.env.REACT_APP_GENAI_KEY
